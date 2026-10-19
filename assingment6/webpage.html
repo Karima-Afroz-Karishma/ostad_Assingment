@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Profile</title>
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>My Personal Profile</h1>
+        <p>Welcome to my personal webpage!</p>
+    </header>
+
+    <!-- Navigation -->
+    <nav>
+        <a href="#about">About Me</a> |
+        <a href="#education">Education</a> |
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <hr>
+
+    <!-- Main Content -->
+    <main>
+
+        <!-- About Section -->
+        <section id="about">
+            <h2>About Me</h2>
+
+            <p>
+                Hello! My name is <b>Karishma</b>.
+                I am a <i>student and web development learner</i>.
+                My goal is to become a
+                <u>professional web developer</u>.
+                I believe that <mark>learning every day</mark>
+                helps me achieve my dreams.
+            </p>
+
+            <!-- Image -->
+            <h3>My Favorite Picture</h3>
+            <img
+                src="https://theportablewife.com/wp-content/uploads/best-places-to-take-pictures-in-paris-newfeatured.jpg"
+                alt="My profile picture"
+                width="250"
+            >
+
+            <!-- Details and Summary -->
+            <details>
+                <summary>More About Me</summary>
+                <p>
+                    I enjoy learning programming, solving problems,
+                    and creating websites. I also love spending time
+                    with my family.
+                </p>
+            </details>
+
+            <!-- Clickable Button -->
+            <button type="button"
+                onclick="alert('Thank you for visiting my profile!')">
+                Click Me
+            </button>
+        </section>
+
+        <hr>
+
+        <!-- Education Section -->
+        <section id="education">
+            <h2>My Academic Information</h2>
+
+            <table border="1" cellpadding="10">
+                <tr>
+                    <th>Degree</th>
+                    <th>Institution</th>
+                    <th>Result</th>
+                </tr>
+
+                <tr>
+                    <td>SSC</td>
+                    <td>Govt Girls High School</td>
+                    <td>GPA 5.00</td>
+                </tr>
+
+                <tr>
+                    <td>HSC</td>
+                    <td>Govt Women's College</td>
+                    <td>GPA 5.00</td>
+                </tr>
+
+                <tr>
+                    <td>Graduation</td>
+                    <td>University Of Asia Pasific  </td>
+                    <td>Graduate</td>
+                </tr>
+            </table>
+        </section>
+
+        <hr>
+
+        <!-- Multimedia Section -->
+        <section id="multimedia">
+            <h2>My Favorite Audio</h2>
+
+            <audio controls>
+                <source
+                    src="sound/a.mp3"
+                    type="audio/mpeg"
+                >
+                Your browser does not support audio.
+            </audio>
+        </section>
+
+        <hr>
+
+        <!-- Contact Form -->
+        <section id="contact">
+            <h2>Contact Me</h2>
+
+            <form action="#" method="post">
+
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <br><br>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <br><br>
+
+                <label for="password">Password:</label>
+                <input type="password" id="password"
+                    name="password" required>
+                <br><br>
+
+                <p>Gender:</p>
+
+                <input type="radio" id="male"
+                    name="gender" value="Male">
+                <label for="male">Male</label>
+
+                <input type="radio" id="female"
+                    name="gender" value="Female">
+                <label for="female">Female</label>
+
+                <input type="radio" id="other"
+                    name="gender" value="Other">
+                <label for="other">Other</label>
+
+                <br><br>
+
+                <p>My Hobbies:</p>
+
+                <input type="checkbox" id="reading"
+                    name="hobbies" value="Reading">
+                <label for="reading">Reading</label>
+
+                <input type="checkbox" id="coding"
+                    name="hobbies" value="Coding">
+                <label for="coding">Coding</label>
+
+                <input type="checkbox" id="gardening"
+                    name="hobbies" value="Gardening">
+                <label for="gardening">Gardening</label>
+
+                <br><br>
+
+                <button type="submit">Submit</button>
+
+            </form>
+        </section>
+
+    </main>
+
+    <hr>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 My Personal Profile. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
